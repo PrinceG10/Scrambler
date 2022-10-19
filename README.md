@@ -1,0 +1,2 @@
+# Scrambler
+COCOTB verification
