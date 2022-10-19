@@ -1,0 +1,52 @@
+$date
+	Wed Oct 19 14:03:54 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module scrambler $end
+$var wire 1 ! CLK $end
+$var wire 1 " RST_N $end
+$var wire 1 # \ff$EN $end
+$var wire 4 $ in_data [3:0] $end
+$var wire 1 % in_en $end
+$var wire 1 & in_rdy $end
+$var wire 4 ' out_data [3:0] $end
+$var wire 1 ( out_en $end
+$var wire 4 ) seed_data [3:0] $end
+$var wire 1 * seed_en $end
+$var wire 1 + seed_rdy $end
+$var wire 1 , \xx_r$EN $end
+$var wire 4 - \xx_r$D_IN [3:0] $end
+$var wire 1 . out_rdy $end
+$var wire 5 / \ff$D_IN [4:0] $end
+$var wire 4 0 \MUX_xx_r$write_1__VAL_2 [3:0] $end
+$var reg 5 1 ff [4:0] $end
+$var reg 4 2 xx_r [3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010 2
+b1010 1
+b101 0
+b1zzzz /
+0.
+bx -
+x,
+1+
+z*
+bz )
+z(
+b0 '
+1&
+z%
+bz $
+z#
+z"
+z!
+$end
+#1
